@@ -20,7 +20,12 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./app/*"],
+      "@/module": ["./app/model/*"],
+      "@/db": ["./app/db/*"],
+      "@/common": ["./app/common/*"],
+      "@/ui": ["./app/ui/*"],
+      "@/utils": ["./app/utils/*"]
     }
   },
   "include": [
